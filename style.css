@@ -1,0 +1,158 @@
+    body,html {
+        background: #DCD7C9;
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .header-top {
+            background: #DCD7C9;
+   
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            /*alttan üstten 0 yanlar oto.*/
+        }
+        .container1{
+            max-height: 1000px;
+        }
+        .container .soz{
+            position: relative;
+            float: right;  
+            margin:2px;
+            padding: 1px;
+            font-size: 40px;
+            font-weight: bold;
+            color:#6a2216;
+            font-family: 'Square Peg', cursive;
+            user-select: none;
+        }
+        .header-bottom {
+            background: #3F4E4F;
+            padding: 26px;
+            position: sticky;
+            top: 0;
+            z-index: 9;
+        }
+        .logo{
+            padding: 10px;
+            position: relative;
+            bottom: 16px;
+            user-select: none;
+        }
+
+        .main-nav {
+            text-align: right;
+            
+        }
+        .main-nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            
+        }
+        .main-nav ul li {
+            display: inline-block;
+            margin-left: 30px;
+        }
+        .main-nav ul li a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .main-nav ul li a:hover{
+            color: #f0ae16;
+            transition:0.7s;
+        }
+        .banner img {
+            width: 100%;
+            height: auto;
+        }
+        .about-section{
+            background: #A27B5C;
+            color:rgba(253, 238, 223, 0.8);
+            font-weight: bold;
+            position: relative;
+            bottom: 4px;
+        }
+        .shop-section{
+            color: #6a2216;
+            font-weight: bold;
+        }
+        .shop-section,.about-section{
+            padding: 40px;
+        }
+        .footer{
+            background: #3F4E4F;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1{
+        text-align: center;
+        }
+        .container-img{
+        background-image: url(img/11.jpg);
+        background-size: cover;
+        position: relative;
+        top: 25px;
+        left: 20px;
+        cursor: pointer;
+        float:left;
+        margin:25px;
+        width: 410px;
+        height: 410px;
+        border-radius:50px;
+        box-shadow: 0 4px 8px 0 rgba(6, 6, 6, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }   
+        .container-img:hover{
+        width: 420px;
+        height: 420px;
+        transition: 0.5s;
+        box-shadow: rgba(1, 1, 1, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+        .container-img2{
+        background-image: url(img/12.jpg);
+        background-size: cover;
+        position: relative;
+        top: 25px;
+        left: 20px;
+        cursor: pointer;
+        margin-right: 20px;
+        float:left;
+        margin:25px;
+        width: 410px;
+        height: 410px;
+        border-radius:50px;
+        }
+        .container-img2:hover{
+        width: 420px;
+        height: 420px;
+        transition: 0.7s;
+        box-shadow: rgba(20, 20, 20, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+        .container-img3{
+        background-image: url(img/14.jpg);
+        background-size: cover;
+        position: relative;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+        margin-right: 20px;
+        float:left;
+        margin:25px;
+        width: 410px;
+        height: 410px;
+        border-radius:50px;
+        }
+        .container-img3:hover{
+        transition: 0.7s;
+        width: 420px;
+        height: 420px;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+        .bos{
+            clear: both;
+        }
